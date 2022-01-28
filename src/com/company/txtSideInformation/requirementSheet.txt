@@ -1,0 +1,16 @@
+1. Winner's and Loser's of the day
+-> Ein feature welches eine Auflistung der vorhandenen Kryptowährungen bietet, welcher man entnehmen kann,
+    welche Kryptowährungen in 24h einen positiven/negativen Verlauf hatten.
+- demnach sollen die Positiven von groß nach klein (prozentual) gelistet werden und die negativen von größtem Verlust
+    nach kleinstem Verlust
+
+Grobkonzept technische Vorgehensweise:
+    - Die nötigen Daten aus dem API-Call filtern
+        -> Daten sind bereits im Repository vorhanden und müssen nur noch gefiltert werden
+        - Methode erstellen, welche auf das Objekt im Repository zugreift und die Daten in einer Datenstruktur zb. Arraylist speichert und sortiert
+        -
+
+    - Die Daten sauber abbilden und aufteilen in negativer/positiver Verlauf
+    - Die negativen/positiven Daten richtig sortieren
+    - Tabellarisch ausgeben
+

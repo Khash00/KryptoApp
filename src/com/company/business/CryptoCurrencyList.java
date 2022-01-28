@@ -12,6 +12,13 @@ public class CryptoCurrencyList {
         list.add("bitcoin");
         list.add("ethereum");
         list.add("solana");
+        list.add("dogecoin");
+        list.add("shiba-inu");
+        list.add("cardano");
+        list.add("tether");
+        list.add("ripple");
+        list.add("helium");
+        list.add("axie-infinity");
         CRYPTO_CURRENCY_LIST = list;
     }
 

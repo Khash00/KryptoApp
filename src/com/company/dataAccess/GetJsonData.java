@@ -14,7 +14,7 @@ public class GetJsonData {
     public static JsonArray getJsonArray(String commaSeparatedList)
         {
             tryToConnectToAPI();
-            String sURL = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana&order=market_cap_desc&per_page=100&page=1&sparkline=false"; //just a string
+            String sURL = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=" + commaSeparatedList +"&order=market_cap_desc&per_page=100&page=1&sparkline=false"; //just a string
         try
         {
             // Connect to the URL using java's native library
