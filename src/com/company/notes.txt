@@ -1,0 +1,21 @@
+1. GetJsonData
+Get Request an API
+    - Build variable String for the different coins
+    - URL-Connection
+    - Save Data as JSON-Object
+    - Return JSON-Object
+
+2. CryptoCurrencyList
+Static List with defined Crypto Names as String
+    - List is generated in Constructor
+    -> Access with get Method
+
+3. CryptoCurrencyRepository
+Create a ArrayList as Repository for Cryptocurrency JSON-Objects
+    saveCoinJsonObjects():
+        - Method which saves the Crypto Currency JSON Objects in a ArrayList (Repository)
+        -> this Method calls the Method from 2. which creates a List with the needed Cryptos and also calls the Method from 1. which
+            downloads the JSON files via API call from the Internet
+            and saves those as JSON Objects
+    filterInformation:
+        - this method filters the information which are needed and prints them to the console
