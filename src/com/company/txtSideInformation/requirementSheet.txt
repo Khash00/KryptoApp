@@ -14,3 +14,19 @@ Grobkonzept technische Vorgehensweise:
     - Die negativen/positiven Daten richtig sortieren
     - Tabellarisch ausgeben
 
+
+2. Automatische Aktualisierung
+    - Das Feature soll  alle 30s die aktualisierten  Preise abrufen und abspeichern
+
+3. Viertstündliche Preisveränderung
+    - Zuwachs/Wertminderinderung zum letzten viertelstündlichen Update
+
+    erwartertes Format (ungefähr):
+
+    Bsp.
+    Preisveränderung 15.30:
+        Bitcoin:
+            Preis(alt): 50€
+            Preis(neu): 52€
+            ________________
+            Preiszuwachs/minderung: + 20%
